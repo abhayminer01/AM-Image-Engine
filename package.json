@@ -1,0 +1,28 @@
+{
+  "name": "am-image-engine",
+  "version": "1.0.0",
+  "description": "Image engine which allows us to post and get images , process the image using various tools and makes it easy to handle images for a website or app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhayminer01/AM-Image-Engine.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhayminer01/AM-Image-Engine/issues"
+  },
+  "homepage": "https://github.com/abhayminer01/AM-Image-Engine#readme",
+  "dependencies": {
+    "busboy": "^1.6.0",
+    "crypto": "^1.0.1",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.2.1",
+    "helmet": "^8.1.0",
+    "sharp": "^0.34.5"
+  }
+}
